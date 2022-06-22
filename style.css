@@ -1,0 +1,51 @@
+.nav{
+    color: violet;
+}
+.nav-icon{
+    padding-left: 70px;
+   font-size: 25px;
+   
+}
+.nav-item{
+    padding-left: 30px;
+    
+}
+.nav-item:hover{
+    
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 6px;
+    
+    
+}
+.carousel-item{
+    height: 100vh;
+    min-height:300px ;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-caption{
+    width: 800px;
+    margin-bottom: 270px;
+    padding-right: 370px;
+  
+}
+.carousel-info{
+    width: 800px;
+    margin-bottom: 270px;
+    padding-right: 370px;
+}
+
+.p-style{
+    color: goldenrod;
+}
+.text-success{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-danger{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
