@@ -49,3 +49,46 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
+.men-women{
+    margin-top: 45px;
+    overflow: hidden;
+
+}
+
+.image{
+    position: relative;
+    transition: .7s;
+}
+
+
+
+.image-overlay{
+    position: absolute;
+    top: 75%;
+    left: 95px;
+    color: rgb(32, 182, 89);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    transition: .7s;
+    
+}
+.image-overlay:hover{
+    top: 65%;
+}
+.shop{
+    color:yellow;
+    padding-left: 65px;
+    text-decoration: underline;
+    
+}
+
+
+.image:hover{
+    transform: scale(1.1);
+    top: 65%;
+    letter-spacing: 5px;
+    
+}
+.cart{
+    margin-top: 30px;
+}
