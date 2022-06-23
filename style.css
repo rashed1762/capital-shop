@@ -1,3 +1,4 @@
+/* nav part start */
 .nav{
     color: violet;
 }
@@ -7,7 +8,8 @@
    
 }
 .nav-item{
-    padding-left: 30px;
+    padding-left: 15px;
+    transition: 1s;
     
 }
 .nav-item:hover{
@@ -49,6 +51,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
+
+/* nav end */
+/* display part */
 .men-women{
     margin-top: 45px;
     overflow: hidden;
@@ -89,6 +94,106 @@
     letter-spacing: 5px;
     
 }
+/* display part end */
+
+/* card item start */
 .cart{
     margin-top: 30px;
 }
+
+.card{
+    margin-top: 50px;
+    overflow: hidden;
+   
+}
+.span{
+    margin-left: 20px;
+    color: rgb(196, 196, 76);
+}
+.trending{
+    transition: .6s;
+}
+.trending:hover{
+    transform: scale(1.1);
+    
+
+}
+.cart-button{
+    position: absolute;
+    top: 55%;
+    left: 55px;
+    display: block;  
+}
+.card-title{
+    font-size: medium;
+}
+.card-title:hover{
+    color: tomato;
+}
+
+.btn-group{
+    background-color: aliceblue;
+
+}
+
+/* card item end */
+
+
+/* customer testomonial */
+.customer-testimonial{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 100%;
+}
+.info{
+    width: 520px;
+    margin-top: 40px;
+}
+.peragraph{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.petey{
+    margin-top: 30px;
+}
+.petey-info{
+    padding-left: 20px;
+}
+/* .customer-testimonial end */
+
+/* you may like start */
+.others{
+margin-top: 50px;
+}
+
+/* you may like end */
+
+/* latest news start */
+
+.latest-news{
+    background-color: rgb(232, 226, 226);
+    height: 700px;
+    width: 100%;
+}
+.latest-info{
+    margin-top: 40px;
+}
+.read:hover{
+    letter-spacing: 1.1px;
+}
+.read{
+    color: black;
+    transition: .9s;
+}
+.tips{
+    margin-top: 20px;
+}
+/* latest news end  */
+
+/* icon part start */
+
+.icon-part{
+    margin-top: 50px;
+}
+
+
